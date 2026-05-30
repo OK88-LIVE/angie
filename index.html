@@ -6,7 +6,6 @@
 <title>Angie OK88 Landing</title>
 
 <style>
-
 *{
   margin:0;
   padding:0;
@@ -137,12 +136,10 @@ body{
     transform:translateY(0px);
     box-shadow:0 0 18px rgba(96,165,250,.35);
   }
-
   50%{
     transform:translateY(-3px);
     box-shadow:0 0 30px rgba(96,165,250,.8);
   }
-
   100%{
     transform:translateY(0px);
     box-shadow:0 0 18px rgba(96,165,250,.35);
@@ -195,30 +192,12 @@ body{
 .social:active{
   transform:scale(.92);
   background:rgba(255,255,255,.16);
-  box-shadow:
-    0 0 0 1px rgba(125,211,252,.4),
-    0 0 12px rgba(96,165,250,.45);
-}
-
-.social::before{
-  content:'';
-  position:absolute;
-  inset:0;
-  background:linear-gradient(
-    135deg,
-    rgba(255,255,255,.18),
-    rgba(255,255,255,0)
-  );
-  opacity:.4;
-  pointer-events:none;
 }
 
 .social img{
   width:18px;
   height:18px;
   object-fit:contain;
-  position:relative;
-  z-index:2;
 }
 
 /* SECTION TITLE */
@@ -261,31 +240,6 @@ body{
 
 .banner-card:hover{
   transform:translateY(-3px) scale(1.01);
-  box-shadow:
-    0 0 0 1px rgba(125,211,252,.25),
-    0 12px 32px rgba(59,130,246,.25),
-    0 0 24px rgba(96,165,250,.18);
-}
-
-.banner-card:active{
-  transform:scale(.98);
-  box-shadow:
-    0 0 0 1px rgba(125,211,252,.35),
-    0 6px 18px rgba(59,130,246,.22),
-    0 0 18px rgba(96,165,250,.22);
-}
-
-.banner-card::after{
-  content:'';
-  position:absolute;
-  inset:0;
-  border-radius:24px;
-  background:linear-gradient(
-    135deg,
-    rgba(255,255,255,.06),
-    rgba(255,255,255,0)
-  );
-  pointer-events:none;
 }
 
 .banner-card img{
@@ -342,10 +296,6 @@ body{
 .menu-btn:hover{
   transform:translateY(-2px);
   box-shadow:0 0 24px rgba(96,165,250,.25);
-}
-
-.menu-btn:active{
-  transform:scale(.98);
 }
 
 .menu-left{
@@ -405,10 +355,33 @@ body{
   transform:scale(1.03);
 }
 
-.visit-btn:active{
-  transform:scale(.97);
+/* FOOTER LINKS */
+
+.footer-links{
+  margin-top:20px;
+  display:flex;
+  justify-content:center;
+  align-items:center;
+  flex-wrap:wrap;
+  gap:8px;
+  text-align:center;
+  font-size:13px;
+  color:#9fb7ff;
 }
 
+.footer-links a{
+  color:#9fb7ff;
+  text-decoration:none;
+  transition:.3s;
+}
+
+.footer-links a:hover{
+  color:#ffffff;
+}
+
+.footer-links span{
+  color:#9fb7ff;
+}
 </style>
 </head>
 
@@ -416,219 +389,143 @@ body{
 
 <div class="container">
 
-<div class="profile-wrapper">
-
-<div class="profile-card">
-
-<div class="avatar">
-<img src="angie.jpg">
-</div>
-
-<div class="name">Angie</div>
-
-<a href="https://t.me/ok88community" target="_blank" class="live-btn">
-<div class="live-dot"></div>
-WATCH LIVE HERE
-</a>
-
-<div class="divider"></div>
-
-<div class="socials">
-
-<a href="https://www.facebook.com/Info.ok88" target="_blank" class="social">
-<img src="facebook.png">
-</a>
-
-<a href="https://www.instagram.com/ok88_sgmy/" target="_blank" class="social">
-<img src="instagram.png">
-</a>
-
-<a href="https://www.tiktok.com/@ok88official" target="_blank" class="social">
-<img src="tiktok.png">
-</a>
-
-<a href="https://t.me/ok88community" target="_blank" class="social">
-<img src="telegram.png">
-</a>
-
-</div>
-
-</div>
-
-</div>
-
-<div class="section-title">
-MALAYSIA
-</div>
-
-<a href="https://www.ok88vip.com/register?affiliateCode=angie" target="_blank" class="banner-card">
-
-<img src="banner.png">
-
-<div class="banner-overlay">
-<div class="overlay-label">OK88 EXCLUSIVE</div>
-<div class="overlay-title">Unlock Malaysia Rewards!</div>
-</div>
-
-</a>
-
-<a href="https://www.ok88vip.com/register?affiliateCode=angie" target="_blank" class="menu-btn">
-
-<div class="menu-left">
-
-<div class="menu-icon">
-<img src="logo.png">
-</div>
-
-<div class="menu-text">
-Dep RM50 FREE 28 Spins
-</div>
-
-</div>
-
-<div class="arrow">›</div>
-
-</a>
-
-<a href="https://www.ok88vip.com/register?affiliateCode=angie" target="_blank" class="menu-btn">
-
-<div class="menu-left">
-
-<div class="menu-icon">
-<img src="logo.png">
-</div>
-
-<div class="menu-text">
-Register Get upto RM128
-</div>
-
-</div>
-
-<div class="arrow">›</div>
-
-</a>
-
-<div class="section-title">
-CLAIM PROMO CODE HERE
-</div>
-
-<a href="https://t.me/ok88community" target="_blank" class="menu-btn">
-
-<div class="menu-left">
-
-<div class="menu-icon">
-<img src="telegram-icon.png">
-</div>
-
-<div class="menu-text">
-Join OK88 Community
-</div>
-
-</div>
-
-<div class="arrow">›</div>
-
-</a>
-
-<a href="https://www.facebook.com/groups/1995569360641957" target="_blank" class="menu-btn">
-
-<div class="menu-left">
-
-<div class="menu-icon">
-<img src="telegram-icon.png">
-</div>
-
-<div class="menu-text">
-Join OK88 Community
-</div>
-
-</div>
-
-<div class="arrow">›</div>
-
-</a>
-
-<div class="section-title">
-OK88 24/7 CS SUPPORT
-</div>
-
-<a href="https://wa.link/ok88_my" target="_blank" class="menu-btn">
-
-<div class="menu-left">
-
-<div class="menu-icon">
-<img src="whatsapp.png">
-</div>
-
-<div class="menu-text">
-WA | 24/7 Support
-</div>
-
-</div>
-
-<div class="arrow">›</div>
-
-</a>
-
-<a href="https://t.me/ok88admin1" target="_blank" class="menu-btn">
-
-<div class="menu-left">
-
-<div class="menu-icon">
-<img src="telegramcs.png">
-</div>
-
-<div class="menu-text">
-Telegram | 24/7 Support
-</div>
-
-</div>
-
-<div class="arrow">›</div>
-
-</a>
-
-<div class="section-title">
-SINGAPORE
-</div>
-
-<a href="https://www.ok88sg.net/register?affiliateCode=angiesg" target="_blank" class="menu-btn">
-
-<div class="menu-left">
-
-<div class="menu-icon">
-<img src="sg-logo.png">
-</div>
-
-<div class="menu-text">
-Register Get upto SGD88
-</div>
-
-</div>
-
-<div class="arrow">›</div>
-
-</a>
-
-<a href="https://www.ok88vip.com/register?affiliateCode=angie/" target="_blank" class="visit-btn">
-Visit OK88LIVE.COM ↗
-</a>
-
- <div class="footer-links">
-
-<a href="#">Cookie Preferences</a>
-
-<span>•</span>
-
-<a href="#">Report</a>
-
-<span>•</span>
-
-<a href="#">Privacy</a>
-
-</div>
+  <div class="profile-wrapper">
+    <div class="profile-card">
+
+      <div class="avatar">
+        <img src="angie.jpg">
+      </div>
+
+      <div class="name">Angie</div>
+
+      <a href="https://t.me/ok88community" target="_blank" class="live-btn">
+        <div class="live-dot"></div>
+        WATCH LIVE HERE
+      </a>
+
+      <div class="divider"></div>
+
+      <div class="socials">
+        <a href="https://www.facebook.com/Info.ok88" target="_blank" class="social">
+          <img src="facebook.png">
+        </a>
+
+        <a href="https://www.instagram.com/ok88_sgmy/" target="_blank" class="social">
+          <img src="instagram.png">
+        </a>
+
+        <a href="https://www.tiktok.com/@ok88official" target="_blank" class="social">
+          <img src="tiktok.png">
+        </a>
+
+        <a href="https://t.me/ok88community" target="_blank" class="social">
+          <img src="telegram.png">
+        </a>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="section-title">MALAYSIA</div>
+
+  <a href="https://www.ok88vip.com/register?affiliateCode=angie" target="_blank" class="banner-card">
+    <img src="banner.png">
+
+    <div class="banner-overlay">
+      <div class="overlay-label">OK88 EXCLUSIVE</div>
+      <div class="overlay-title">Unlock Malaysia Rewards!</div>
+    </div>
+  </a>
+
+  <a href="https://www.ok88vip.com/register?affiliateCode=angie" target="_blank" class="menu-btn">
+    <div class="menu-left">
+      <div class="menu-icon">
+        <img src="logo.png">
+      </div>
+      <div class="menu-text">Dep RM50 FREE 28 Spins</div>
+    </div>
+    <div class="arrow">›</div>
+  </a>
+
+  <a href="https://www.ok88vip.com/register?affiliateCode=angie" target="_blank" class="menu-btn">
+    <div class="menu-left">
+      <div class="menu-icon">
+        <img src="logo.png">
+      </div>
+      <div class="menu-text">Register Get upto RM128</div>
+    </div>
+    <div class="arrow">›</div>
+  </a>
+
+  <div class="section-title">CLAIM PROMO CODE HERE</div>
+
+  <a href="https://t.me/ok88community" target="_blank" class="menu-btn">
+    <div class="menu-left">
+      <div class="menu-icon">
+        <img src="telegram-icon.png">
+      </div>
+      <div class="menu-text">Join OK88 Community</div>
+    </div>
+    <div class="arrow">›</div>
+  </a>
+
+  <a href="https://www.facebook.com/groups/1995569360641957" target="_blank" class="menu-btn">
+    <div class="menu-left">
+      <div class="menu-icon">
+        <img src="telegram-icon.png">
+      </div>
+      <div class="menu-text">Join OK88 Community</div>
+    </div>
+    <div class="arrow">›</div>
+  </a>
+
+  <div class="section-title">OK88 24/7 CS SUPPORT</div>
+
+  <a href="https://wa.link/ok88_my" target="_blank" class="menu-btn">
+    <div class="menu-left">
+      <div class="menu-icon">
+        <img src="whatsapp.png">
+      </div>
+      <div class="menu-text">WA | 24/7 Support</div>
+    </div>
+    <div class="arrow">›</div>
+  </a>
+
+  <a href="https://t.me/ok88admin1" target="_blank" class="menu-btn">
+    <div class="menu-left">
+      <div class="menu-icon">
+        <img src="telegramcs.png">
+      </div>
+      <div class="menu-text">Telegram | 24/7 Support</div>
+    </div>
+    <div class="arrow">›</div>
+  </a>
+
+  <div class="section-title">SINGAPORE</div>
+
+  <a href="https://www.ok88sg.net/register?affiliateCode=angiesg" target="_blank" class="menu-btn">
+    <div class="menu-left">
+      <div class="menu-icon">
+        <img src="sg-logo.png">
+      </div>
+      <div class="menu-text">Register Get upto SGD88</div>
+    </div>
+    <div class="arrow">›</div>
+  </a>
+
+  <a href="https://www.ok88vip.com/register?affiliateCode=angie" target="_blank" class="visit-btn">
+    Visit OK88LIVE.COM ↗
+  </a>
+
+  <div class="footer-links">
+    <a href="#">Cookie Preferences</a>
+    <span>•</span>
+    <a href="#">Report</a>
+    <span>•</span>
+    <a href="#">Privacy</a>
+  </div>
 
 </div>
 
 </body>
-</html
+</html>
